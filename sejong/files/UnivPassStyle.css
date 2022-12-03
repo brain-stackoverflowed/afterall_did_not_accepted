@@ -1,0 +1,123 @@
+html, body		{ margin:0; padding:0; text-align:center; height:100% }
+td,div,p,th,input,select,textarea { color:#000; font-size:12px; font-family:Dotum,Arial;vertical-align:middle }
+select			{ font-family:AppleGothic,Sans-serif,Dotum; }
+td,th,p         { line-height:18px }
+textarea		{ padding:5px }
+img 			{ border:none; }
+h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form { margin:0; padding:0; }
+form			{ min-height:100%; height:100% !important; _height:100%; }
+li				{ list-style-type:none }
+a:link			{ color:#808080; text-decoration:none }
+a:visited		{ color:#808080; text-decoration:none }
+a:hover			{ color:#808080; text-decoration:underline; }
+
+/* 20120803수정 */
+#wrap { position:absolute; top:20px; left:50%; width:600px; overflow:hidden; margin-left:-300px;} 
+#cont	{background:#3688BB; padding:10px; margin:0; overflow:hidden}
+#cont .cont_in	{background:#fff url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/bg_top.gif) no-repeat center top;padding:54px 54px 34px 54px;}
+/* // 20120803수정 */
+
+hr				{ clear:both; margin:0; padding:0; color:#FFF; height:15px; #height:8px; border:none }
+.blind, .hide{display:none;visibility:hidden}
+.hr_small		{ clear:both; margin:0; padding:0; color:#FFF; height:15px; #height:1px; border:none }
+.float_l{float:left;display:inline}
+.float_r{float:left;display:inline}
+.l	{text-align:left !important}
+.c	{text-align:left !important; padding-left:0 !important}
+.r	{text-align:left !important; padding-right:0 !important}
+.box_cyan,
+.box_blue,
+.box_red,
+.box_violet,
+.box_gray {padding:10px 14px; line-height:18px; color:#666; font-family:malgun gothic, "맑은 고딕"; text-align:left; position:relative}
+.box_cyan { background:#EBF7FF; border:1px solid #CEE9FC}
+.box_blue { background:#EBEFFF; border:1px solid #CED7FC}
+.box_red { background:#F7EBFF; border:1px solid #FCCEE4}
+.box_violet { background:#EFEBFF; border:1px solid #D7CBFF}
+.box_gray { background:#f3f3f5; border:1px solid #d7d7d7}
+.in_gray		{ border:solid 1px #D0CCC3; height:14px; padding-top:3px }
+.in_gray_file	{ border:solid 1px #D0CCC3; height:20px; }
+.radio {margin-left:-4px}
+.copy			{ padding:0 0 11px 11px; }
+.only_txt		{ padding-left:12px; margin-top:10px; margin-bottom:10px}
+	.only_txt img	{ vertical-align:middle }
+.btn_top_right	{ text-align:right; height:29px }
+.btn_top_left	{ text-align:left; height:29px }
+.with_btn_h3	{margin-top:-55px}
+.btn_bottom_center	{ padding-top:15px; text-align:center; }
+.btn_bottom_right	{ padding-top:15px; text-align:right; height:24px }
+.btn_center_right	{ clear:both; text-align:right; padding:15px 0 }
+.btn_center		{ text-align:center; }
+/* List */
+.list_dangu	{ text-align:left }
+	.list_dangu li	{ line-height:18px; padding-bottom:2px; padding-left:13px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_dangu.gif) no-repeat left 4px;  }
+.list_dangu_orange	{ text-align:left }
+	.list_dangu_orange li	{ line-height:18px; padding-bottom:2px; padding-left:13px; color:#FF7700; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_dangu_orange.gif) no-repeat left 4px;  }
+	.list_dangu_orange li input	{ vertical-align:middle }
+.list_gray	{ text-align:left; }
+	.list_gray li	{ line-height:18px; padding-bottom:2px; padding-left:7px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_th.gif) no-repeat left 7px; }
+	.list_gray li.with_img	{ background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_th.gif) no-repeat left 11px; }
+	.list_gray li.arrow	{ background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_arrow.gif) no-repeat left 5px; padding-left:7px }
+.list_ol	{ margin-left:30px }
+	.list_ol li	{ list-style-type:decimal; line-height:18px; padding-bottom:2px; }
+.list_ol_sky	{ }
+	.list_ol_sky li	{ line-height:18px; padding-bottom:5px; color:#0073CF }
+	.list_ol_sky li img, .list_ol_sky li input	{ vertical-align:middle }
+.list_bar	{ text-align:left; }
+	.list_bar li	{ line-height:18px; padding-bottom:2px; padding-left:11px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/list_bar.gif) no-repeat 2px 7px; }
+	.list_bar li.with_img	{ background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/list_bar.gif) no-repeat 2px 11px; }
+.list_star	{ text-align:left; }
+	.list_star li	{ line-height:18px; padding-bottom:2px; padding-left:9px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/list_star.gif) no-repeat left 6px; }
+
+/* Table */
+.tbl_list		{ width:100%; border-collapse:collapse; border-top:3px solid #FFD474; border-bottom:solid 2px #D7D7D7;margin-top:10px; }
+	.tbl_list th, .tbl_list td	{ border-bottom:solid 1px #EAEAEA; border-right:solid 1px #EAEAEA; border-left:solid 1px #EAEAEA; text-align:center }
+	.tbl_list th	{ background:#75B0D4; text-align:center; padding:7px 0;color:#fff; font-size:12px; font-weight:bold; letter-spacing:-1px; font-family:malgun gothic, "맑은 고딕"; }
+	.tbl_list th.th_img{padding:0;font-size:0;line-height:0;overflow:hidden}
+	.tbl_list tr.th_dark th	{ background:#F0F0F0; }
+	.tbl_list tr.end td	{ border-bottom:solid 2px #D7D7D7; }
+	.tbl_list td	{ padding-top:7px; padding-bottom:6px; color:#2f3743 }
+	.tbl_list td.al_left	{ padding-left:15px; text-align:left }
+	.tbl_list td.al_left_02	{ padding-left:7px; text-align:left }
+	.tbl_list td.al_left_03	{ padding-left:7px; text-align:left;padding-right:7px; }
+	.tbl_list td.al_right	{ padding-right:10px; text-align:right }
+	.tbl_list td.td_input	{ padding-top:6px; padding-bottom:4px; }
+	.tbl_list td.td_img		{ padding:0; }
+	.tbl_list td.td_none	{ padding:0; }
+	.tbl_list td input		{ vertical-align:middle }
+.nbsp {margin-left:10px}
+.mT20 {margin-top:20px}
+.pT20 {padding-top:20px}
+
+/* Font */
+.title { font-size:34px; font-weight:bold; margin-top:10px; margin-bottom:15px; #margin-bottom:23px; _margin-bottom:23px;letter-spacing:-1px; font-family:Malgun Gothic; color:#0289cc; text-align:center !important}
+.title2 { font-size:30px; font-weight:bold; margin-top:10px; margin-bottom:15px; #margin-bottom:23px; _margin-bottom:23px;letter-spacing:-1px; font-family:Malgun Gothic; color:#0289cc;!important}
+.title3 { font-size:26px; font-weight:bold; margin-top:10px;margin-bottom:15px; #margin-bottom:23px; _margin-bottom:23px;letter-spacing:-1px; font-family:Malgun Gothic; color:#0289cc;!important;}
+.bullet { padding-left:12px; margin-top:10px; margin-bottom:10px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_bullet.gif) no-repeat left 0px;!important} /*20120803수정 */
+.danggu { padding-left:12px;  margin-top:10px; margin-bottom:10px;background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_dangu.gif) no-repeat left 2px;!important}
+.arrow { padding-left:12px; padding-bottom:4px; background:url(http://image.jinhakapply.com/ApplyBank/new_2009/youth/img/ico_arrow2.gif) no-repeat -5px -4px;!important}
+.font11			{ font-size:11px; letter-spacing:-1px; font-family:dotum !important }
+.font12			{ font-size:12px; letter-spacing:-1px }
+.font16			{ font-size:16px; color:#808080 }
+.font18			{ font-size:18px; color:#808080 }
+.font20			{ font-size:20px; color:#808080 }
+.fc_orange		{ color:#FF7700 }
+.fc_light		{ color:#ACACAC }
+.fc_gray		{ color:#C7C7C7 }
+.fc_sky			{ color:#709FDE }
+.fc_blue		{ color:#008FD1 }
+.fc_blue_02		{ color:#165AA5 }
+.f_strong		{ color:#000; font-weight:bold; font-size:14px;line-height:24px !important}
+.f_strong_orange{ color:#FF7700; font-weight:bold; font-size:14px;line-height:24px !important}
+.fc_red			{ color:#F5300F }
+.fc_dark		{ color:#464646 }
+.fc_black		{ color:#000 }
+.fc_green		{ color:#00C9BD }
+.fc_green_02	{ color:#7A8E47 }
+.fw_normal		{ font-weight:normal }
+.font_eng		{ font-size:10px; font-family:Tahoma }
+h2 { color:#0b66b9; letter-spacing:-1px; font-size:18px; vertical-align:bottom;}
+h3 { color:#0b66b9; letter-spacing:-1px; font-size:16px; vertical-align:bottom;}
+h4 { color:#0b66b9; letter-spacing:-1px; font-size:14px; vertical-align:bottom;}
+
+	
